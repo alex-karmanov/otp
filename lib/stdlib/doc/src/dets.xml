@@ -329,13 +329,8 @@
           as a list of tuples:</p>
         <list type="bulleted">
           <item>
-            <p><c>{file_size, integer() >= 0}}</c> - The file size, in
-            bytes.</p>
-          </item>
-          <item>
-            <p><c>{filename, </c><seetype marker="file#name">
-            <c>file:name()</c></seetype><c>}</c> - The name of the file
-            where objects are stored.</p>
+            <p><c>{type, </c><seetype marker="#type">
+              <c>type()</c></seetype><c>}</c> - The table type.</p>
           </item>
           <item>
             <p><c>{keypos, </c><seetype marker="#keypos">
@@ -346,8 +341,13 @@
               stored in the table.</p>
           </item>
           <item>
-            <p><c>{type, </c><seetype marker="#type">
-              <c>type()</c></seetype><c>}</c> - The table type.</p>
+            <p><c>{file_size, integer() >= 0}}</c> - The file size, in
+            bytes.</p>
+          </item>
+          <item>
+            <p><c>{filename, </c><seetype marker="file#name">
+            <c>file:name()</c></seetype><c>}</c> - The name of the file
+            where objects are stored.</p>
           </item>
         </list>
       </desc>
